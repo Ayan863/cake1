@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #0A0A0A;
+}
+header .bottom {
+  width: 93.5%;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  left: 46px;
+}
+header .bottom .icon {
+  display: flex;
+  gap: 25px;
+}
+header .bottom .icon i {
+  color: #fff;
+  font-size: 15px;
+}
+header .bottom .icon i:hover {
+  transform: rotateY(180deg);
+  transform: 5s;
+  color: #E5BF4A;
+}
+header li {
+  height: 60px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 40px;
+}
+header li a {
+  font-family: jost, sans-serif;
+  color: #fff;
+  font-size: 15px;
+}
+header button {
+  color: #E5BF4A;
+  border: 1px solid #E5BF4A;
+  display: inline-block;
+  padding: 11px 20px;
+  text-transform: capitalize;
+  font-size: 16px;
+  background: transparent;
+  width: 232px;
+  height: 47px;
+  font-family: jost, sans-serif;
+}
+header button:hover {
+  background-color: #E5BF4A;
+  color: #fff;
+  transition: 3s;
+}
+
+.sec1 {
+  position: relative;
+  display: flex;
+  gap: 45px;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  width: 100%;
+  background-image: url("https://preview.colorlib.com/theme/cakeshop/assets/img/hero/h1_hero1.jpg.webp");
+  background-size: cover;
+}
+.sec1 h1 {
+  position: relative;
+  left: 108px;
+  font-size: 70px;
+  font-family: "Poiret One", cursive;
+  font-weight: 400;
+  width: 438px;
+  color: #fff;
+}
+.sec1 button {
+  position: relative;
+  background: #E5BF4A;
+  left: 108px;
+  border: 1px solid #fe7f7f;
+  color: #0A0A0A;
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+  padding: 22px 41px;
+  text-transform: uppercase;
+  line-height: 15px;
+  border-radius: 0px;
+  width: 179px;
+}
+.sec1 button:hover {
+  transition: 3s;
+  background: transparent;
+  color: #E5BF4A;
+}
+
+.sec2 {
+  background-color: #0A0A0A;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.sec2 .firstCake {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sec2 .secondCake {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sec2 .thirdCake {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sec2 img {
+  width: 408px;
+  height: 327.16px;
+}
+.sec2 a {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Poiret One", cursive;
+}
+.sec2 span {
+  font-size: 20px;
+  color: #E5BF4A;
+  font-family: jost, sans-serif;
+}
+
+footer {
+  height: 533px;
+  background-color: #0A0A0A;
+  display: flex;
+}
+footer .left p {
+  color: #fff;
+  width: 526px;
+  font-family: jost, sans-serif;
+  font-size: 16px;
+}
+footer .left button {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  padding: 14px 36px 13px 39px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 400;
+  background: none;
+  border-radius: 0px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+}
+footer .right {
+  display: flex;
+}
+footer .right .loc {
+  display: flex;
+  flex-direction: column;
+}
+footer .right img {
+  height: 23px;
+  width: 23px;
+}
+footer .right h4 {
+  color: #fff;
+}
+footer .right a {
+  color: #fff;
+}
+footer .right p {
+  color: #fff;
+  width: 190px;
+}
